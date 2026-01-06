@@ -30,7 +30,7 @@ st.markdown("""
 @st.cache_data
 def load_data():
     # PATHS
-    csv_path = os.path.join("data", "customer_segments.csv")
+    csv_path = os.path.join("data", "processed", "customer_segments.csv")
     
     # Check if CSV exists (Deployment/Portable Mode)
     if os.path.exists(csv_path):
