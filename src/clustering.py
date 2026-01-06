@@ -74,5 +74,10 @@ def run_clustering():
     df.to_sql(output_table, engine, if_exists='replace', index=False)
     print("Success! Segmentation saved to Database.")
 
+    # Save a copy for the web dashboard to use without DB
+    df.to_csv("data/processed/customer_segments.csv", index=False)
+    print("Portable CSV created in data/ folder.")
+
 if __name__ == "__main__":
     run_clustering()
+
