@@ -4,6 +4,9 @@
 
 ### *Turning Raw Transactions into Actionable Marketing Personas*
 
+## 🚀 Live Demo
+[https://customer360platform.streamlit.app/](https://customer360platform.streamlit.app/)
+
 ## 📌 1. The Business Problem
 
 Marketing teams often face the **"One-Size-Fits-All"** dilemma. By treating every customer the same, they waste budget on low-value users and fail to nurture high-value VIPs, leading to:
